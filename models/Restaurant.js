@@ -10,8 +10,9 @@ const RestaurantSchema = new mongoose.Schema(
   },
   {
     collection: "Restaurants",
-    strict: false   
+    strict: false
   }
 );
 
 module.exports = mongoose.model("Restaurant", RestaurantSchema);
+
